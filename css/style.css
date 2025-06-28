@@ -192,11 +192,6 @@ html{
 #boat{
     padding: 40px 0;
 }
-/* #maria{
-    width: 70%;
-    background: red;
-    margin: 0 auto;
-} */
 #maria:hover{
   box-shadow: 10px 10px 10px 10px #f5f5f5f5;
 }
@@ -205,6 +200,9 @@ html{
 }
 #motorola span:hover{
     color: #fff;
+}
+.container {
+    overflow-x: hidden;
 }
 
 /* media queries */

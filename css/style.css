@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+html{
+    font-size: 20px;
+}
+
+#start, #last{
+    background-color: #010A35 !important;
+    color: #fff;
+}
+#start, #colr{
+    color: #7F8499;  
+}
+#colr #btn{
+    background: none;
+    color: #7F8499;
+    border: none;
+    padding-left: 70px;
+}
+#start i{
+    font-size: 0.6rem;
+    font-weight: 550;
+}
+#set i{
+    background-color: #f5f5f5f5;
+    padding: 10px;
+    border-radius: 100px;
+    color:#ed3a3a;
+}
+#navbarNavAltMarkup a{
+    background-color: #f5f5f5f5;
+    padding: 10px 13px;
+}
+#set{
+    margin-left: 100px;
+}
+.slides, .slides-1{
+    background-image: url(../image/carousel.jpg);
+    height: 85vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     /* background: rgba(1, 10, 53, .8); */
+}
+.slides-1{
+    background-image: url(../image/carousel1.jpg);
+}
+#sett{
+    padding-left: 100px;
+}
+#dell b, #asus b{
+    font-size: 2rem;
+}
+.top{
+    padding: 0 0 40px 20px;
+}
+.bottom{
+    padding: 0px 0px 0 50px !important;
+}
+.right{
+    padding: 0px 0px 0 40px !important;
+}
+#dell, #asus, #lenovo, #ship{
+    padding: 100px 0;
+}
+#hp{
+    margin: 0 auto;
+    padding-top: 300px;
+}
+#hp h1{
+    color: #fff;
+}
+#hp p, #boat p, #boat ul li, #boat ul li a{
+    color: #7F8499;
+}
+#hp #btn{
+    background-color: #ff3b3b;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    margin-left: 300px;
+}
+#hp #btn:hover, #bg-1 #bton:hover,#btns:hover{
+    background-color: rgb(2, 3, 129);
+    color: #fff;
+    transition: .5s !important;
+}
+#hey{
+    margin: 0 auto;
+}
+#fourth{
+    background-image: url(../image/6.jpg);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hey h1{
+    color: #fff;
+    font-weight: 700;
+}
+#lemon{
+    padding: 15px 0;
+}
+.card-body{
+    background: #f5f5f5f5;
+}
+#mentor{
+    padding: 200px 40px;
+    color: #fff;
+}
+#right-1 p, #motorola span{
+    color: red;
+}
+#color{
+    background: #fd3b38;
+    border-radius: 100px;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    padding: 20px 10px;
+}
+#ship i{
+    font-size: 3rem;
+    color: #ed3a3a;
+    padding: 20px;
+}
+#btnn{
+    background: linear-gradient(to right, #fd3b386b, #fd3b38);
+    padding: 10px 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#maria #btnn:hover{
+    background: #000;
+    color: #fff;
+}
+#bton{
+    background-color: #fd3b38;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+}
+#bg-1{
+    background-image: url(../image/14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bg-2{
+    background-image: url(../image/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#mud{
+    background: #fff;
+    padding: 60px;
+    margin-top: 80px;
+    width: 90%;
+    margin-left: 40px;
+}
+#btns{
+    width: 40%;
+    padding: 10px 0;
+    background-color: #fd3b38;
+    color: #fff;
+    border: none;
+}
+#boat ul li a{
+    text-decoration: none;
+}
+#boat ul li{
+    margin-bottom: 10px !important;
+}
+#boat{
+    padding: 40px 0;
+}
+#maria:hover{
+  box-shadow: 10px 10px 10px 10px #f5f5f5f5;
+}
+#motorola{
+    color: #7F8499;
+}
+#motorola span:hover{
+    color: #fff;
+}
+
+/* media queries */
+
+@media only screen and (max-width:1024px){
+
+    #colr #btn {
+        padding-left: 0px;
+    }
+    #navbarNavAltMarkup a{
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+    #set i{
+        display: table-cell;
+    }
+    #teddy{
+        display: flex;
+    }
+}
+@media only screen and (max-width:768px){
+
+    #mud{
+        margin-bottom: 70px !important;
+    }
+}
+@media only screen and (max-width:426px){
+
+    #hp #btn{
+        margin-left: 0px !important;
+    }
+    #start{
+        text-align: center;
+    }
+    #sams img{
+        width: 50%;
+    }
+}

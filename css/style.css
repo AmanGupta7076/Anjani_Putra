@@ -247,11 +247,26 @@ html{
     #teddy{
         display: flex;
     }
+    #hp #btn{
+        margin-left: 120px !important;
+    }
+    #hp p{
+        margin-right: 160px !important;
+    }
 }
 @media only screen and (max-width:768px){
 
     #mud{
         margin-bottom: 70px !important;
+    }
+    #hp #btn{
+        margin-left: 100px !important;
+    }
+    #bg-2{
+        margin-top: 70px;
+    }  
+    #hp p{
+        margin-right: 18px !important;
     }
 }
 @media only screen and (max-width:426px){

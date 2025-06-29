@@ -42,6 +42,20 @@ html{
     width: 100%;
     height: 100vh;
 }
+.carousel-control-prev-text,
+.carousel-control-next-text {
+  font-size: 40px;
+  color: #fff;
+  background-color: #010A35;
+  border-radius: 100px;
+  padding: 0px 20px;
+  margin-top: 150px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
 #set{
     margin-left: 100px;
 }
@@ -246,6 +260,21 @@ html{
     #mud{
         margin-left: 20px !important;
     }
+    #hp{
+        padding-top: 140px;
+    }
+    #lemon h5{
+        padding-top: 15px;
+    }  
+    #bg-2{
+        margin-top: 70px;
+    }     
+    #sett {
+    padding-left: 20px;
+    }
+    .navbar-brand{
+        width: 70%;
+    }
     
 }
 @media only screen and (max-width:321px){
@@ -255,5 +284,8 @@ html{
     }
     #btns{
         width: 80%;
+    }
+    #hp{
+        padding-top: 140px;
     }
 }

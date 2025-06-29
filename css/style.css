@@ -271,14 +271,11 @@ html{
     #mud{
         margin-left: 20px !important;
     }
-    #hp{
-        padding-top: 140px;
-    }
     #hp h1{
         font-size: 2rem;
     }
     #hp {
-        padding-top: 240px;
+        padding-top: 185px;
     }
     #lemon h5{
         padding-top: 15px;
